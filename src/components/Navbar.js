@@ -16,7 +16,7 @@ const Navbar = () => {
   const pathname = usePathname()
 
   return (
-    <nav className='absolute left-0 bottom-[50%] lg:bottom-0 lg:left-[50%] text-white flex flex-col lg:flex-row border-r border-r-slate-800 lg:border-r-0 lg:border-t lg:border-t-slate-800'>
+    <nav className='lg:h-full lg:w-min w-full transform flex lg:flex-col flex-row justify-center lg:border-r lg:border-r-slate-800 lg:border-t-0 border-t border-t-slate-800'>
       {
         links.map(({ href, label, icon }) => {
           const isActiveLink = href === pathname || pathname?.startsWith(`${href}/`)
