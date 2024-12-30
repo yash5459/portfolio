@@ -12,7 +12,7 @@ const AboutPage = () => {
         — Robert Herjavec
       </section>
 
-      <div className="flex flex-col lg:flex-row justify-center items-center space-y-4 lg:space-y-0 lg:space-x-10">
+      <div className="mx-4 flex flex-col lg:flex-row justify-center items-center space-y-4 lg:space-y-0 lg:space-x-10">
         <div className="flex lg:grid grid-cols-2 gap-4 max-w-sm lg:max-w-md">
           <div className="flex lg:grid gap-4">
             <div>
