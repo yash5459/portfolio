@@ -8,7 +8,7 @@ import React from 'react'
 
 const links = [
   { href: '/', label: 'Home', icon: <House className='mr-6 lg:mx-2' /> },
-  { href: '/profile', label: 'Profile', icon: <User className='mr-6 lg:mx-2' /> },
+  { href: '/about', label: 'About', icon: <User className='mr-6 lg:mx-2' /> },
   { href: '/contact', label: 'Contact', icon: <NotepadText className='mr-6 lg:mx-2' /> },
 ]
 

@@ -10,7 +10,7 @@ const Header = () => {
     const zone = moment.tz.guess();
 
     const updateTime = () => {
-      const tzn = moment().tz(zone).format('HH:mm:ss a');
+      const tzn = moment().tz(zone).format('hh:mm:ss a');
       setCurrentTime(tzn);
     };
 
