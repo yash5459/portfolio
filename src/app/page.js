@@ -56,6 +56,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
               title={socialMedia.title}
+              className="hover:cursor-pointer hover:text-slate-300"
             >
               {socialMedia.icon}
             </Link>
